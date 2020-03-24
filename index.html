@@ -37,9 +37,8 @@
 			<div class="slides">
 				<section>
 					<h3>
-						How to run a global service
+						How to run a global service alone
 					</h3>
-					<h4>With a team of 1</h4>
 				</section>
 				
 				<section>
@@ -78,46 +77,64 @@
 				</section>
 
 				<section>
-					<h2>In this world</h2>
-					<p>
-						<code>experimental</code> = production ready
-					</p>
-					
-					<p>
-						"Buy" things from clouds that abstract all the things
-					</p>
+					<h2>Hard earned lessons</h2>
+					<h3>In human psychology</h3>
 				</section>
 				<section>
-					<h4>
-						<a
-							href="https://github.com/arschles/athens-azure"
-						>
-							github.com/arschles/athens-azure
-						</a>
-					</h4>
-					<small>
-						Not really though... 
-						<a
-							href="https://github.com/arschles/athens-azure/blob/master/aci.sh"
-						>
-							<code>aci.sh</code>
-						</a>
-					</small>
+					<ul class="list-group text-center">
+						<li class="list-group-item">
+							<code>experimental</code> = production ready
+						</li>
+						<li class="list-group-item">
+							People build products on the service
+						</li>
+						<li class="list-group-item">
+							No SLA = it has an SLA
+						</li>
+					</ul>
+				</section>
+				<section>
+					<h3>
+						Run imperfect things
+					</h3>
+
+					<h4>These features would have been great!</h4>
+					<ul class="list-group">
+						<li class="list-group-item text-center">
+							Mutable endpoints
+						</li>
+						<li class="list-group-item text-center">
+							Storing history
+						</li>
+					</ul>
 				</section>
 				<section>
 					<h2>The stack</h2>
+
+					<ul class="list-group text-center">
+						<li class="list-group-item">
+							Global proxy cache (Azure front door)
+						</li>
+						<li class="list-group-item">
+							Fully managed database (CosmosDB)
+						</li>
+						<li class="list-group-item">
+							Managed docker containers (ACI)
+						</li>
+						<li class="list-group-item">
+							A 17 line bash script
+						</li>
+					</ul>
+				</section>
+				<section>
 					<p>
-						Global proxy cache (Azure front door)
+						<img class="img-fluid" src="/img/athens-logo.jpg" />
 					</p>
-					<p>
-						Fully managed database (CosmosDB)
-					</p>
-					<p>
-						Managed docker containers (ACI)
-					</p>
-					<p>
-						A script that's really hard to get wrong
-					</p>
+					<small>
+						<a href="https://twitter.com/arschles">
+							@arschles
+						</a>
+					</small>
 				</section>
 
 			</div>
